@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabina's Online Business Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="main-title">👗 Sabina's Profile</h1>
+        <p class="alert-text"><strong>Notice:</strong> Welcome to my online business card!</p>
+
+        <nav class="main-nav">
+            <a href="#profile">Profile</a>
+            <a href="#box-model">Box Model Lab</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-wrapper">
+            <div class="card" id="profile">
+                <img src="profile.jpg" alt="Sabina Malbul profile photo">
+                <h2>Sabina Malbul</h2>
+                <p>Online Clothing Store Owner & Entrepreneur</p>
+                <p>Age: 20 yrs | Height: 5'3"</p>
+                <p>Running and growing my own online clothing store!</p>
+
+                <form id="contact">
+                    <label for="visitor-email">Email Address:</label>
+                    <input type="email" id="visitor-email" placeholder="sabinamalbul31@gmail.com" value="sabinamalbul31@gmail.com">
+                    <button type="submit">Contact Me</button>
+                </form>
+            </div>
+
+            <!-- [Box Model Lab] box-sizing: border-box Demo -->
+            <section class="box-model-lab" id="box-model">
+                <h2>🧪 Box Model Lab</h2>
+                <p>Both boxes below have <code>width: 300px;</code> and <code>padding: 30px;</code></p>
+
+                <div class="box-container default-box">
+                    <h3>Default (content-box)</h3>
+                    <p>I grew to 370px because of the padding and border!</p>
+                </div>
+
+                <div class="box-container solver-box">
+                    <h3>Solver (border-box)</h3>
+                    <p>I kept my 300px promise safely.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sabina's Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
