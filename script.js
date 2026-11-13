@@ -22,3 +22,10 @@ if (age >= 18) {
 } else {
   console.log("You are a minor.");
 }
+
+// Part 3: Dark mode toggle
+let themeToggle = document.querySelector("#theme-toggle");
+
+themeToggle.addEventListener("click", function () {
+  document.body.classList.toggle("dark-mode");
+});
