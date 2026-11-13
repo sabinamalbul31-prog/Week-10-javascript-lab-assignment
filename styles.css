@@ -81,3 +81,27 @@ p {
   background-color: #ffebcd;
   border-color: darkorange;
 }
+
+/* --- Dark Mode --- */
+body.dark-mode {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode p {
+  color: #9be89b;
+}
+
+body.dark-mode .card {
+  background-color: #2b2b2b;
+  border-color: #555;
+  color: #f0f0f0;
+}
+
+body.dark-mode .box-model-lab {
+  background-color: #22303a;
+  color: #f0f0f0;
+}
+
+body.dark-mode .box-container p {
+  color: #333;
+}
